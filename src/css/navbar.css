@@ -1,0 +1,36 @@
+
+.brand-image{
+    width: 65px;
+    height: 65px;
+}
+#pagescroller{
+    width: 100%;
+    padding: 1px;
+    background-color: orange;
+}
+nav .nav-link{
+    width: 0%;
+    transition: width 0.5s ease-out;
+}
+nav .nav-link:hover{
+    width: 100%;
+    border-bottom: 2px solid orange;
+}
+.dropdown-menu{
+    max-height: 60vh;
+    overflow-y: auto;
+    opacity: 0.9;
+    border-bottom: 2px solid orange;
+}
+.dropdown-item{
+    font-size: 18px;
+    transition: all 0.4s;
+}
+.dropdown-item:hover{
+    background-color: orange;
+    cursor: pointer;
+}
+
+@media(max-width: 720px){
+    
+}

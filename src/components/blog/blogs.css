@@ -1,0 +1,41 @@
+
+.blog-container{
+    position: relative;
+}
+.blog-img{
+    filter: brightness(75%);
+}
+
+.blog-container:hover .blog-img{
+    filter: brightness(40%);
+    transition: all 0.5s;
+}
+.tags:hover{
+    cursor: pointer;
+}
+.blog-text{
+    position: absolute;
+    width: 90%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.links{
+    text-decoration: None;
+    color: inherit;
+}
+.links:hover{
+    color: orange;   
+}
+.blog-list{
+    list-style: none;
+    transition: all 0.4s;
+}
+
+.blog-list:hover{
+    padding-left: 15px;
+    cursor: pointer;
+    color: orange;
+}

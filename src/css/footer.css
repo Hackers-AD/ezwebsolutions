@@ -1,0 +1,14 @@
+
+.footer-menu:hover{
+    padding-left: 7px;
+    transition: all 0.5s;
+}
+.footer-anchor{
+    text-decoration: none;
+}
+.footer-anchor:hover{
+    color: orange;
+}
+.social-links:hover{
+    color: red;
+}

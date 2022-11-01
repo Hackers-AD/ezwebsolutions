@@ -1,0 +1,33 @@
+body{
+    font-family: 'Ubuntu', 'Georgia', 'san-serif';
+}
+
+.btn-rounded-sm{
+    border-radius: 25px;
+}
+
+.btn-rounded-md{
+    border-radius: 30px;
+}
+
+.btn-rounded-lg{
+    border-radius: 35px;
+}
+
+.ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+.ul li{
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+.react-links{
+    text-decoration: none;
+    color: inherit;
+}
+
+.react-links:hover{
+    color: orange;
+}
